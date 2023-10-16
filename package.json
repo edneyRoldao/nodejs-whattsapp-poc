@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-whattsapp-poc",
+  "version": "1.0.0",
+  "description": "This is a simple project to usar Venon as a bot to send messages via whattsapp",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "dev": "nodemon",
+    "start": "npm run build && node build/index.js"
+  },
+  "keywords": [
+    "whattsapp",
+    "node"
+  ],
+  "author": "Edney Roldão",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "nodemon": "^3.0.1",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1"
+  }
+}
