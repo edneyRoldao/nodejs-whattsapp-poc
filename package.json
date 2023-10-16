@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rimraf ./build && tsc",
     "dev": "nodemon",
-    "start": "npm run build && node build/index.js"
+    "start": "npm run build && node build/app.js"
   },
   "keywords": [
     "whattsapp",
@@ -18,5 +18,8 @@
     "nodemon": "^3.0.1",
     "rimraf": "^5.0.5",
     "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "venom-bot": "^5.0.21"
   }
 }
